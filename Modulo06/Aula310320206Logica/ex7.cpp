@@ -7,7 +7,7 @@ int main(){
     float peso, altura, imc;
 
 
-    cout <<  "Peso em kilosÇÇÇÇÇ e altura em metros: ";
+    cout <<  "Peso em kilos e altura em metros: ";
     cin >> peso >> altura;
 
 
@@ -22,7 +22,7 @@ int main(){
     }
 
     else if(imc<25){
-        cout << "PeÇÇÇÇÇÇÇÇÇÇso normal\n";
+        cout << "Peso normal\n";
     }
 
     else if(imc<30){
