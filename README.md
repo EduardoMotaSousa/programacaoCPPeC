@@ -97,6 +97,8 @@ Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e 
 
 Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
 
+
+
 Exercicio 017
 Faça um Programa para uma loja de tintas.
 
@@ -111,6 +113,8 @@ comprar apenas galões de 3,6 litros;
 misturar latas e galões, de forma que o preço seja o menor.
     Acrescente 10% de folga e sempre arredonde os valores para cima,
     isto é, considere latas cheias.
+
+
 Exercicio 018
 Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
 

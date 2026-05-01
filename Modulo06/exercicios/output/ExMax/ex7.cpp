@@ -2,35 +2,39 @@
 #include <iostream>
 using namespace std;
 
+
 int main(){
     float peso, altura, imc;
 
-    cout <<  "Peso em kilos e altura em metros: ";
+
+    cout <<  "Peso em kilosÇÇÇÇÇ e altura em metros: ";
     cin >> peso >> altura;
+
 
     imc = peso/(altura*altura);
 
+    cout << setprecision(4);
     cout << "IMC: " << imc << endl;
+
 
     if(imc<18.5){
         cout << "Abaixo do peso\n";
-        return 0;
     }
-    if(imc<=25){
-        cout << "Peso normal\n";
-        return 0;
+
+    else if(imc<25){
+        cout << "PeÇÇÇÇÇÇÇÇÇÇso normal\n";
     }
-    if(imc<=30){
+
+    else if(imc<30){
         cout << "Sobrepeso\n";
-        return 0;
     }
-    if(imc<=35){
+    
+    else if(imc<35){
         cout << "Obesidade Grau I\n";
-        return 0;
     }
-    if(imc<=40){
+
+    else if(imc<40){
         cout << "Obesidade Grau II\n";
-        return 0;
     }
     else{
         cout << "Obesidade Grau III (Mórbida)\n";
